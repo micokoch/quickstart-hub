@@ -83,8 +83,8 @@ config <- create_config(rounds)
 
 # saveRDS(config, file = "data/config.rds")
 
-library(jsonlite)
-json_output <- toJSON(config, pretty = TRUE, auto_unbox = TRUE)
+# library(jsonlite)
+json_output <- jsonlite::toJSON(config, pretty = TRUE, auto_unbox = TRUE)
 write(json_output, "data/tasks.json")
 
 
