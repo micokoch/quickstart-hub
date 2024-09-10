@@ -1,0 +1,12 @@
+{
+    "schema_version": "https://raw.githubusercontent.com/Infectious-Disease-Modeling-Hubs/schemas/main/v2.0.0/admin-schema.json",
+    "name": "Simple Forecast Hub",
+    "maintainer": "Alvaro",
+    "contact": {
+        "name": "Alvaro",
+        "email": "alvaro@cidmh.com"
+    },
+    "repository_url": "https://github.com/micokoch/simple-hub",
+    "file_format": ["csv"],
+    "timezone": "US/Eastern"
+}
